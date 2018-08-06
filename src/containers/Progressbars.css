@@ -1,0 +1,21 @@
+.progressbars{
+    width: 80%;
+    max-width: 80%;
+    padding: 40px 40px 80px 40px ;
+    border-radius: 10px;
+    border: 2px solid lightblue;
+    overflow:auto; 
+    margin: auto;
+}
+
+@media(max-width: 650px){
+    .progressbars{
+        height: 300px;
+    }
+}
+
+@media(max-width: 450px){
+    .progressbars{
+        padding: 10px 10px 20px 10px ;
+    }
+}

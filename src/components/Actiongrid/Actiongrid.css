@@ -1,0 +1,14 @@
+.actiongrid{
+    display: flex;
+    position: fixed;
+    height: 56px;
+    width: inherit;
+    justify-content: space-around;
+    padding: 15px 5px 0px 0px;
+}
+
+@media(max-width: 650px){
+    .actiongrid{
+        display: grid;
+    }
+}
