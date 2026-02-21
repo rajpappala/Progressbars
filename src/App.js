@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import styles from './App.css';
-import Progressbars from './containers/Progressbars'
+import TambolaCounter from './components/TambolaCounter/TambolaCounter';
+
 class App extends Component {
   render() {
     return (
       <div className={styles.App}>
-        
-        <Progressbars></Progressbars>
-        
+        <TambolaCounter />
       </div>
     );
   }
